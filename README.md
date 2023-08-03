@@ -170,6 +170,33 @@ the output result can be found at `./output/`
 [LINK](https://github.com/zqzqz/contract-fuzzer).
 
 
+****
+
+### ityfuzz
+#### How to run
+```
+cd /ityfuzz
+bash ityfuzz.sh
+
+the output result can be found at `/ityfuzz/result/`
+
+#### Source code
+[LINK](https://github.com/fuzzland/ityfuzz).
+
+****
+
+### efcf
+#### How to run
+```
+cd /efcf
+bash efcf.sh
+```
+the output result can be found at `/efcf/result/`
+
+#### Source code
+[LINK](https://github.com/uni-due-syssec/efcf-framework).
+
+
 ------------------------------------
 #### SmartACE (not used in our experiment)
 #### How to run
@@ -186,10 +213,5 @@ cmake --build . --target fuzz
 
 #### Source code
 [LINK](https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_started.md).
-
-
-License
-=======
-Sourcerer is under the MIT license. See the [LICENSE](https://github.com/bbboxA/SCFuzzers/blob/main/LICENSE.md) for more information.
 
 

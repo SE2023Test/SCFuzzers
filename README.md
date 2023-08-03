@@ -182,7 +182,7 @@ bash ityfuzz.sh
 the output result can be found at `/ityfuzz/result/`
 
 #### Source code
-[LINK]([https://github.com/fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz))
+[LINK][https://github.com/fuzzland/ityfuzz]
 
 ****
 
@@ -196,7 +196,7 @@ bash efcf.sh
 the output result can be found at `/efcf/result/`
 
 #### Source code
-[LINK]([https://github.com/uni-due-syssec/efcf-framework](https://github.com/uni-due-syssec/efcf-framework))
+[LINK](https://github.com/uni-due-syssec/efcf-framework)
 
 ------------------------------------
 

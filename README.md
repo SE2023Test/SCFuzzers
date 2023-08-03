@@ -44,7 +44,7 @@ After that, use the unzip command to unzip
 Usage
 =====
 
-### ContractFuzzer
+### 1.ContractFuzzer
 #### How to run
 ```
 docker run ......
@@ -59,7 +59,7 @@ the output result can be found at `contract_folder`.
 
 ****
 
-### ILF
+### 2.ILF
 #### How to run
 ```
 cd /go/src/ilf
@@ -72,7 +72,7 @@ The log file can be found at `/go/src/ilf/log/`
 
 ****
 
-### ConFuzzius
+### 3.ConFuzzius
 #### How to run
 ```
 cd /root
@@ -86,7 +86,7 @@ the output result can be found at `./log/`.
 
 ****
 
-### sFuzz
+### 4.sFuzz
 #### How to run
 ```
 cd /workdir
@@ -100,7 +100,7 @@ the output result can be found at `./output/`
 
 ****
 
-### xFuzz
+### 5.xFuzz
 #### How to run
 ```
 cd /workdir
@@ -114,7 +114,7 @@ the output result can be found at `./output/`
 
 ****
 
-### RLF
+### 6.RLF
 #### How to run
 ```
 docker run ......
@@ -128,7 +128,7 @@ the output result can be found at `./log/`
 
 ****
 
-### Smartian
+### 7.Smartian
 #### How to run
 ```
 cd /Smartian
@@ -141,7 +141,7 @@ the output result can be found at `./test/`
 
 ****
 
-## SmartGift
+## 8.SmartGift
 #### How to run
 ```
 cd /SmartGift/code
@@ -158,7 +158,7 @@ the output result can be found at `contract_folder`.
 ****
 
 
-### EthPloit
+### 9.EthPloit
 #### How to run
 ```
 cd /contract-fuzzer/src
@@ -172,7 +172,7 @@ the output result can be found at `./output/`
 
 ****
 
-### ityfuzz
+### 10.ityfuzz
 #### How to run
 ```
 cd /ityfuzz
@@ -181,11 +181,12 @@ bash ityfuzz.sh
 the output result can be found at `/ityfuzz/result/`
 
 #### Source code
-[LINK](https://github.com/fuzzland/ityfuzz).
+[LINK]([https://github.com/fuzzland/ityfuzz](https://github.com/fuzzland/ityfuzz))
 
 ****
 
-### efcf
+### 11. efcf
+
 #### How to run
 ```
 cd /efcf
@@ -194,10 +195,10 @@ bash efcf.sh
 the output result can be found at `/efcf/result/`
 
 #### Source code
-[LINK](https://github.com/uni-due-syssec/efcf-framework).
-
+[LINK]([https://github.com/uni-due-syssec/efcf-framework](https://github.com/uni-due-syssec/efcf-framework))
 
 ------------------------------------
+
 #### SmartACE (not used in our experiment)
 #### How to run
 

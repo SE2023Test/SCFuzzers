@@ -1,6 +1,6 @@
 # Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
 
-<p align="center"><img width="90%" src="./overview2.png"></p>
+<p align="center"><img width="60%" src="./overview2.png"></p>
 
 # Questionnaire
 To see the <strong><u><big>Questionnaire</big></u></strong> used in this paper, please open `index.html`, or you can visit this url: 

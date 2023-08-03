@@ -177,6 +177,7 @@ the output result can be found at `./output/`
 ```
 cd /ityfuzz
 bash ityfuzz.sh
+```
 
 the output result can be found at `/ityfuzz/result/`
 

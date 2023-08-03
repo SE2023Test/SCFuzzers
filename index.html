@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Contract Fuzzer Survey Questionaire</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <section>
+   <div class="heading">
+        <h1>Smart Contract Fuzzer Survey Questionaire</h1>
+                <!-- <h2>HIV/AIDS SENSITIZATION DECEMBER 2019.</h2> -->
+          
+          <h4>Privacy Statement: We are committed to protecting your privacy and ensuring the confidentiality of your personal information. Be assured that all personal information collected in this survey will be used strictly for research purposes only. At the conclusion of the survey, all personally identifiable information will be promptly and securely deleted.</h3>
+            </div>
+          <form method="POST">
+ <fieldset class="userdata">  
+    
+<legend>Demographics</legend>  
+<!-- <label for="name">Name:</label>   
+<input type="text" id="name" name="name" placeholder="Full Name" autofocus>   -->
+<label for="qty">Age:</label>          
+<input type="number" id="qty" name="qty" min="1" max="90" placeholder="Age">
+<label for="Occupation">Occupation:</label>
+<input type="text" id="Occupation" name="Occupation" placeholder="Occupation">
+<label for="Location">Location:</label>
+<input type="text" id="Location" name="Location" placeholder="Location">
+<label for="education">Education:</label>
+<select id="education" name="education">
+    <option value="less-than-high-school">Less than high school</option>
+    <option value="high-school">High school</option>
+    <option value="bachelor-degree">Bachelor  degree</option>
+    <option value="master-or-professional-degree">Master degree</option>
+    <option value="doctorate-degree">Doctorate degree</option>
+</select>
+<!-- <label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" placeholder="don't forget your country code +..."> -->
+<!-- <label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="Email"> -->
+<label for="employment-status">Employment status?</label>
+<select id="employment-status" name="employment-status">
+    <option value="full-time">Employed full-time</option>
+    <option value="part-time">Employed part-time</option>
+    <option value="student">Student</option>
+    <option value="retired">Retired</option>
+    <option value="prefer-not-to-answer">Prefer not to answer</option>
+</select>
+
+<label for="work-experience">Years of Work Experience:</label>
+<input type="text" id="yearwork" name="yearwork" placeholder="0" autofocus>
+
+<label for="work-experience">Years of Smart Contract Auditing:</label>
+<input type="text" id="yearreview" name="yearreview" placeholder="0" autofocus>
+
+
+
+ </fieldset> 
+
+<fieldset>
+        <legend>Survey Questions</legend>
+    <div class="#1">
+<P>1. Do you use a fuzzer during the auditing process?</P>
+<ol>
+<input type="radio" id="fuzzer-yes" name="fuzzer-use" value="yes">
+<label for="fuzzer-yes" style="display: inline;">Yes</label><br>
+
+<input type="radio" id="fuzzer-no" name="fuzzer-use" value="no">
+<label for="fuzzer-no" style="display: inline;">No</label><br>
+</ol>
+</div>
+
+<div class="#2">
+    <label for="fuzzers">2. Which of the following fuzzers do you frequently use in auditing? (Check all that apply)</label><br>
+
+    <div>
+        <input type="checkbox" id="fuzzer-a" name="fuzzers" value="A">
+        <label for="fuzzer-a" style="display: inline;">EF/CF</label><br>
+    </div>
+    
+    <input type="checkbox" id="fuzzer-b" name="fuzzers" value="B">
+    <label for="fuzzer-b" style="display: inline;">ityFuzz</label><br>
+    
+    <input type="checkbox" id="fuzzer-c" name="fuzzers" value="C">
+    <label for="fuzzer-c" style="display: inline;">Echidina</label><br>
+
+    <input type="checkbox" id="fuzzer-d" name="fuzzers" value="D">
+    <label for="fuzzer-d" style="display: inline;">ContractFuzzer</label><br>
+
+    <input type="checkbox" id="fuzzer-e" name="fuzzers" value="E">
+    <label for="fuzzer-e" style="display: inline;">ILF</label><br>
+
+    <input type="checkbox" id="fuzzer-f" name="fuzzers" value="F">
+    <label for="fuzzer-f" style="display: inline;">RLF</label><br>
+    
+    <input type="checkbox" id="fuzzer-g" name="fuzzers" value="G">
+    <label for="fuzzer-g" style="display: inline;">ContraMaster</label><br>
+    
+    <input type="checkbox" id="fuzzer-h" name="fuzzers" value="H">
+    <label for="fuzzer-h" style="display: inline;">sFuzz</label><br>  
+
+    <input type="checkbox" id="fuzzer-i" name="fuzzers" value="I">
+    <label for="fuzzer-i" style="display: inline;">xFuzz</label><br>  
+
+    <input type="checkbox" id="fuzzer-j" name="fuzzers" value="J">
+    <label for="fuzzer-j" style="display: inline;">Smartian</label><br>  
+
+    <input type="checkbox" id="fuzzer-k" name="fuzzers" value="k">
+    <label for="fuzzer-k" style="display: inline;">ConFuzzius</label><br>  
+
+    <input type="checkbox" id="fuzzer-l" name="fuzzers" value="L">
+    <label for="fuzzer-l" style="display: inline;">SynTest-Solidity</label><br>  
+
+    <input type="checkbox" id="fuzzer-m" name="fuzzers" value="M">
+    <label for="fuzzer-m" style="display: inline;">ETHPlOIT</label><br>  
+
+    <input type="checkbox" id="fuzzer-n" name="fuzzers" value="N">
+    <label for="fuzzer-n" style="display: inline;">SmartGift</label><br>  
+
+    <input type="checkbox" id="fuzzer-o" name="fuzzers" value="O">
+    <label for="fuzzer-o" style="display: inline;">SoliAudit</label><br>  
+    <!-- Add more options as needed -->
+    
+    <label for="fuzzer-other">Other:</label>
+    <input type="text" id="fuzzer-other" name="fuzzer-other">
+    
+</div>
+<div class="#3">
+    <label for="reason">3. What is the reason for choosing these fuzzers? <br>(Please list at least one reason for each fuzzer:)</label><br>
+    <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
+</div>
+<div class="#4">
+<label for="requirements">4. In your opinion, what are the practical requirements for<br> fuzzers in auditing? (Check all that apply)</label><br>
+
+<input type="checkbox" id="requirement-1" name="requirements" value="1">
+<label for="requirement-1" style="display: inline;">High quality, detailed vulnerability report</label><br>
+
+<input type="checkbox" id="requirement-2" name="requirements" value="2">
+<label for="requirement-2" style="display: inline;">Low false positive/negative in vulnerability detection</label><br>
+
+<input type="checkbox" id="requirement-3" name="requirements" value="3">
+<label for="requirement-3" style="display: inline;">Large and active community</label><br>
+
+<input type="checkbox" id="requirement-4" name="requirements" value="4">
+<label for="requirement-4" style="display: inline;">Frequently maintained code</label><br>
+
+<input type="checkbox" id="requirement-5" name="requirements" value="5">
+<label for="requirement-5" style="display: inline;">Easy to use</label><br>
+
+<input type="checkbox" id="requirement-6" name="requirements" value="6">
+<label for="requirement-6" style="display: inline;">Convenient to develop customized oracle</label><br>
+
+<input type="checkbox" id="requirement-7" name="requirements" value="7">
+<label for="requirement-7" style="display: inline;">Rich documentation</label><br>
+
+<label for="requirement-other">Other:</label>
+<textarea id="requirement-other" name="requirement-other" rows="4" cols="50"></textarea>
+    
+</div>
+<!-- <div class="#5">
+     <P>From the No.4 above, is it right to conclude that, Drug Abuse is a major setback on the fight against HIV/AIDS?</P>
+     <ol>
+<li><label>
+    <input type="radio" name="setback" value="yes">Yes
+</label>
+</li>
+<li><label>
+    <input type="radio" name="setback" value="no">No
+</label>
+</li>
+<li><label>
+    <input type="radio" name="setback" value="notsure">Not sure
+</label>
+</li>
+</ol>
+</div> -->
+<!-- <div class="#6">
+     <P>In a percentage range, can you say how much Drug Abuse has posed as a major setback to the fight against HIV/AIDS</P>
+     <ol>
+        <li><label>
+            <input type="radio" name="percentage" value="less">Less than 10%
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="percentage" value="over">Over 10%
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="percentage" value="not">Not up to 30%
+        </label>
+        </li>
+        <li>
+                <label>
+                        <input type="radio" name="percentage" value="others">
+                    </label>
+                    <label for="others">Others</label>
+            <input type="text" id="others" name="others" placeholder="specify">
+            
+        </li>
+    </ol>
+</div> -->
+<!-- <div class="#7">
+     <P>Can you say that, the fight against Drug Abuse has yielded positive results of late?</P>
+     <ol>
+        <li><label>
+            <input type="radio" name="positive" value="yes">Yes
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="positive" value="no">No
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="positive" value="cantsay">Can't say
+        </label>
+        </li>
+    </ol>
+</div>
+<div class="#8">
+    <label for="helped">What, in your opinion has mostly helped in the fight against HIV/AIDS?</label>
+    <select id="helped" name="helped">
+        <option selected>choose one...</option>
+    <option value="info">Awareness, sensitization and publicity</option>
+    <option value="treat">Treatment, control and management of the disease</option>
+    <option value="lessons">Lessons from infected persons</option>
+    </select>
+</div>
+<div class="#9">
+    <label for="Opinion">What, in your opinion need to be to improve the compaign against Drug Abuse?</label>
+<input type="text" id="Opinion" name="opinion" placeholder="Be Specific">
+</div>
+<div class="#10">
+         <P>How often do you undergo HIV/AIDS test?</P>
+         <ol>
+            <li><label>
+                <input type="radio" name="often" value="year">Once in a year
+            </label>
+            </li>
+            <li><label>
+                <input type="radio" name="often" value="month">Once in six months
+            </label>
+            </li>
+            <li><label>
+                <input type="radio" name="often" value="cantremember">Can't remember
+            </label>
+            </li>
+                <li><label>
+                        <input type="radio" name="often" value="notyet">Haven't done it before
+                    </label>
+                    </li>
+        </ol>
+</div> -->
+<label for="comments">Do you have any additional information regarding your experience<br> with using contract fuzzers? ?</label>
+<textarea id="comments" name="comments" placeholder="Leave a comment"></textarea>
+<label>
+    <input id="subscribe" name="subscribe" type="checkbox" value="subscribe" checked>For further questions, should we contact you with email?
+</label>
+<button type="submit">Submit</button>
+<input id="send_to" type="hidden" name="send_to" value="anigbofredrick@gmail.com">
+</fieldset>
+
+      </form>
+    </section>
+</div>
+
+</body>
+
+</html>

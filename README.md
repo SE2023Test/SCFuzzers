@@ -1,14 +1,3 @@
-# Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
-
-<p align="center"><img width="60%" src="./overview2.png"></p>
-
-# Questionnaire
-To see the **Questionnaire** used in this paper, please open `index.html`, or you can visit this url: 
-
-http://htmlpreview.github.io/?https://github.com/SE2023Test/SCFuzzers/blob/main/index.html
-
-
-# Artifacts
 <table><tr><td bgcolor=orange> Due to the size limit of 2GB imposed by Git LFS and GitHub, all the dockerfiles and benchmarks used in our experiment are available for access at: https://terabox.com/s/1NcZk3SUi6uEWjnZRo7Qw9A</td></tr></table>  
 
 <p align="center"><img width="50%" src="./dockerfiles.png"></p>
